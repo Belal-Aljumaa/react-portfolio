@@ -3,9 +3,6 @@ import GitHubCalendar from 'react-github-calendar';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './PageGithub.scss';
-
-
-console.log(process.env);
 interface IValue {
 	login: string;
 	avatar_url: string;
