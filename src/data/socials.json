@@ -1,0 +1,32 @@
+[
+  {
+    "social": "website",
+    "link": "Belal Aljumaa",
+    "href": "https://belal-aljumaa-portfolio.netlify.app/"
+  },
+  {
+    "social": "email",
+    "link": "belal.aljumaa@gmail.com",
+    "href": "mailto:belal.aljumaa@gmail.com"
+  },
+  {
+    "social": "github",
+    "link": "belal-aljumaa",
+    "href": "https://github.com/belal-aljumaa"
+  },
+  {
+    "social": "linkedin",
+    "link": "belal-aljumaa",
+    "href": "https://www.linkedin.com/in/belal-aljumaa/"
+  },
+  {
+    "social": "telegram",
+    "link": "belal_aljumaa",
+    "href": "https://t.me/belal_aljumaa"
+  },
+  {
+    "social": "codepen",
+    "link": "aljumaa",
+    "href": "https://codepen.io/aljumaa"
+  }
+]

@@ -1,0 +1,9 @@
+export { default as PageHome } from './home/PageHome';
+export { default as PageAbout } from './about/PageAbout';
+export { default as PageContact } from './contact/PageContact';
+export { default as PageSettings } from './settings/PageSettings';
+export { default as PageGithub } from './github/PageGithub';
+export { default as PageProjects } from './projects/PageProjects';
+export { default as PageSkills } from './skills/PageSkills';
+export { default as PageCertificates } from './certificates/PageCertificates';
+export { default as Page404 } from './404/Page404';

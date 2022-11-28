@@ -1,0 +1,17 @@
+.page404 {
+	color: var(--text-color);
+
+	h2 {
+		font-size: 8rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 2rem;
+		code {
+			color: var(--accent-color);
+			font-family: 'Courier New', Courier, monospace;
+			background-color: var(--main-bg);
+		}
+	}
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Code Company",
+    "image": "https://user-images.githubusercontent.com/92271729/203639134-5ce9d8bf-2cd6-4bd4-a342-abb77e5ed22b.png",
+    "tags": ["html", "sass", "javaScript","pugjs"],
+    "source_code": "https://github.com/Belal-Aljumaa/code_company",
+    "demo": "https://belal-aljumaa.github.io/code_company/"
+  },
+  {
+    "id": 2,
+    "name": "Kasper",
+    "image": "https://user-images.githubusercontent.com/92271729/203639138-a59c9ad3-96e6-42c8-981c-b32cc58671de.png",
+    "tags": [ "html", "css-modules", "javaScript"],
+    "source_code": "https://github.com/Belal-Aljumaa/Kasper-Agency-Template",
+    "demo": "https://belal-aljumaa.github.io/Kasper-Agency-Template/"
+  },
+  {
+    "id": 3,
+    "name": "BMW Cars",
+    "image": "https://user-images.githubusercontent.com/92271729/203639149-80137d47-6163-4bbe-8143-b564a3b70f1c.png",
+    "tags": ["html", "sass", "javaScript"],
+    "source_code": "https://github.com/Belal-Aljumaa/simple_page_tutorial",
+    "demo": "https://belal-aljumaa.github.io/simple_page_tutorial/"
+  },
+  {
+    "id": 4,
+    "name": "Xbody",
+    "image": "https://user-images.githubusercontent.com/92271729/203639153-318aa032-5018-4e38-9967-5cf49e907054.png",
+    "tags": ["html", "bootstrap"],
+    "source_code": "https://github.com/Belal-Aljumaa/X-body",
+    "demo": "https://belal-aljumaa.github.io/X-body/"
+  }
+]

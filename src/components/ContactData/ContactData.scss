@@ -1,0 +1,40 @@
+.code {
+  counter-reset: line;
+  font-size: 20px;
+  line-height: 30px;
+
+  .line {
+    &:before {
+      content: counter(line);
+      counter-increment: line;
+      margin-right: 15px;
+      color: grey;
+    }
+
+    .socials {
+      color: var(--accent-color);
+      font-size: 24px;
+    }
+  }
+
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .code {
+      font-size: 12px;
+      line-height: 24px;
+    }
+  }
+}

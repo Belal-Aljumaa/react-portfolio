@@ -1,0 +1,109 @@
+.project-card {
+  .box-card {
+    background-color: var(--article-bg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  
+    &:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .card-content {
+      padding: 10px;
+      border-radius: 0 0 20px 20px;
+  
+      p {
+        font-size: 14px;
+        margin-top: 15px;
+      }
+  
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0 15px 0;
+  
+        span {
+          margin: 10px 10px 0 0;
+          padding: 5px 10px;
+          border-radius: 20px;
+          font-size: 14px;
+          transition: all 0.2s;
+        }
+  
+        .pugjs{
+          border: 2px solid #a86454;
+        
+          &:hover {
+            background-color: #a8645440;
+          }
+        }
+        
+        .html {
+          border: 2px solid #dd4a25;
+        
+          &:hover {
+            background-color: #dd4a2540;
+          }
+        }
+        
+        .javaScript {
+          border: 0.15px solid #ffff00;
+          &:hover {
+            background-color: #ffff0040;
+          }
+        }
+        
+        .bootstrap {
+          border: 0.15px solid #7c6dfa;
+          &:hover {
+            background-color: #7c6dfa40;
+          }
+        }
+        
+        .sass {
+          border: 2px solid #eb5388;
+          &:hover {
+            background-color: #eb538840;
+          }
+        }
+        
+        .css-modules {
+          border: 2px solid #1572b6;
+          &:hover {
+            background-color: rgba(21, 114, 182, 0.25);
+          }
+        }
+      }
+  
+      .live {
+        display: flex;
+        gap: 15px;
+  
+        .underline {
+          padding: 5px 0;
+          font-size: 15px;
+          letter-spacing: 0;
+          cursor: pointer;
+          color: white;
+          text-decoration: none;
+          background-image: linear-gradient(
+            120deg,
+            var(--accent-color) 100%,
+            var(--accent-color) 100%
+          );
+          background-repeat: no-repeat;
+          background-size: 100% 0.2em;
+          background-position: 0 88%;
+          transition: background-size 0.2s ease-in;
+  
+          &:hover {
+            background-size: 100% 88%;
+          }
+        }
+      }
+    }
+  }
+}

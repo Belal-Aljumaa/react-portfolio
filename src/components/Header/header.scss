@@ -1,0 +1,55 @@
+.titlebar {
+  background-color: var(--header-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #191d20;
+
+  .items {
+    flex: 1;
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+
+    p {
+      padding: 0 10px;
+      cursor: pointer;
+    }
+  }
+
+  .title-header {
+    flex: 1;
+    text-align: center;
+  }
+
+  .windowButtons {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    span {
+      margin-left: 8px;
+      height: 15px;
+      width: 15px;
+      cursor: pointer;
+
+      &:first-child {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .items p {
+    display: none;
+  }
+  .title {
+    flex: 4;
+  }
+}

@@ -1,0 +1,38 @@
+.theme-info {
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    text-align: center;
+    padding: 0 25px;
+  
+    .img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .info {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      button {
+        margin-top: 10px;
+        border: none;
+        background: var(--button-bg);
+        color: var(--button-text);
+        padding: 5px 10px;
+        font-weight: 600;
+        cursor: pointer;
+  
+        &:focus {
+          outline: 1px solid var(--accent-color);
+        }
+        
+      }
+      
+    }  
+  }
+}

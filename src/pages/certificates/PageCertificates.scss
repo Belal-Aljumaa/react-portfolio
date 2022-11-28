@@ -1,0 +1,67 @@
+.certificates {
+	.container {
+		min-width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 50px;
+
+		.img-box {
+			text-align: center;
+			overflow: hidden;
+			width: 450px;
+			height: 300px;
+			position: relative;
+      cursor: pointer;
+
+			.overlay {
+				position: absolute;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.8);
+				color: #fff;
+				transition: all 0.5s ease;
+				opacity: 0;
+				font-size: 36px;
+				padding: 50px;
+				width: 100%;
+			}
+      
+			&:hover .overlay {
+				opacity: 1;
+			}
+		}
+	}
+
+  @media screen and (max-width: 1100px) {
+    .container {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    .img-box {
+      margin: 25px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .container {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+
+    .img-box {
+      margin: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      margin-top: 20px;
+    }
+
+    .img-box {
+      margin: 15px;
+    }
+  }
+}

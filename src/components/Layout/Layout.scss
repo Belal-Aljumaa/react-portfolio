@@ -1,0 +1,36 @@
+.layout {
+  .main {
+    display: flex;
+    background: var(--main-bg);
+  }
+  
+  .content {
+    padding: 30px;
+    color: var(--text-color);
+    flex: 1;
+    height: 85vh;
+    overflow-y: auto;
+    scrollbar-width: 10px;
+    scrollbar-color: var(--accent-color);
+
+    &::-webkit-scrollbar {
+      width: 15px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: var(--scrollbar-track-bg);
+      border-left: 1px solid #1e1f29;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: var(--scrollbar-thumb-bg);
+      border-left: 1px solid #1e1f29;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      padding: 30px 15px;
+    }
+  }
+}
